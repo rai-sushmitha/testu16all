@@ -1,0 +1,18 @@
+language: none
+services:
+ - cassandra
+ - couchdb
+ - elasticsearch
+ - memcached
+ - mongodb
+ - mysql
+ - neo4j
+ - postgres
+ - redis
+ - rethinkdb
+ - riak
+ - selenium
+ - sqlite
+build:
+ ci:
+  - echo "Hello, World!"
