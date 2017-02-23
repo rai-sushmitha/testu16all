@@ -14,5 +14,9 @@ services:
  - selenium
  - sqlite
 build:
+ pre_ci_boot:
+  image_name: drydock/u16all
+  image_tag: tip
+  pull: true
  ci:
   - echo "Hello, World!"
