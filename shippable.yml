@@ -16,7 +16,7 @@ services:
 build:
  pre_ci_boot:
   image_name: drydock/u16all
-  image_tag: ragesh
+  image_tag: master
   pull: false
  ci:
   - cqlsh -e "describe cluster; describe tables"
