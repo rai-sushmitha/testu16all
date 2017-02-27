@@ -46,9 +46,9 @@ build:
   - shippable_service rabbitmq start
   - rabbitmqctl status
   - shippable_service rabbitmq stop
-  - shippable_service redis start
-  - (echo "INFO"; echo -e "\nQUIT") | nc 127.0.0.1 6379
-  - shippable_service redis stop
+  #- shippable_service redis start
+  #- (echo "INFO"; echo -e "\nQUIT") | nc 127.0.0.1 6379
+  #- shippable_service redis stop
   - shippable_service rethinkdb start
   - shippable_service rethinkdb stop
   - shippable_service riak start
