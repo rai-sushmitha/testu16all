@@ -34,9 +34,9 @@ build:
   - shippable_service mongodb start
   - mongo --eval "db.stats()"
   - shippable_service mongodb stop
-  - shippable_service mysql start
-  - mysql -e "show databases;"
-  - shippable_service mysql stop
+  #- shippable_service mysql start
+  #- mysql -e "show databases;"
+  #- shippable_service mysql stop
   - shippable_service neo4j start
   - curl localhost:7474
   - shippable_service neo4j stop
