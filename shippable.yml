@@ -8,6 +8,7 @@ services:
  - mysql
  - neo4j
  - postgres
+ - rabbitmq
  - redis
  - rethinkdb
  - riak
