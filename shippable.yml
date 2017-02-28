@@ -7,4 +7,4 @@ build:
   image_tag: master
   pull: false
  ci:
-  - (echo "INFO"; echo -e "\nQUIT") | nc 127.0.0.1 6379
+  - echo "Hello, World!"
