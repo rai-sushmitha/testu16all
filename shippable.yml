@@ -2,9 +2,9 @@ language: none
 services:
  - sqlite
 build:
- pre_ci_boot:
-  image_name: drydock/u16all
-  image_tag: master
-  pull: false
+# pre_ci_boot:
+#  image_name: drydock/u16all
+#  image_tag: master
+#  pull: false
  ci:
   - echo "Hello, World!"
