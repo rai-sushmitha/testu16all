@@ -5,7 +5,7 @@ services:
 build:
  pre_ci_boot:
   image_name: drydock/u16all
-  image_tag: master
-  pull: false
+  image_tag: v5.3.2
+  pull: true
  ci:
   - curl localhost:9200
