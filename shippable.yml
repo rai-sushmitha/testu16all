@@ -1,5 +1,6 @@
 language: none
 services:
+ - rabbitmq
  - elasticsearch
 build:
  pre_ci_boot:
